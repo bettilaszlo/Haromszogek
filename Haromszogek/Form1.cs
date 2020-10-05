@@ -77,5 +77,11 @@ namespace Haromszogek
                 MessageBox.Show("Nincs mit törölni!");
             }
         }
+
+        private void btnfajlbol_Click(object sender, EventArgs e)
+        {
+            lbHaromszogLista.Items.Clear();
+            ofMegnyitas.ShowDialog();
+        }
     }
 }

@@ -40,6 +40,8 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.lbHaromszogLista = new System.Windows.Forms.ListBox();
             this.btnTorol = new System.Windows.Forms.Button();
+            this.btnfajlbol = new System.Windows.Forms.Button();
+            this.ofMegnyitas = new System.Windows.Forms.OpenFileDialog();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -156,11 +158,28 @@
             this.btnTorol.UseVisualStyleBackColor = true;
             this.btnTorol.Click += new System.EventHandler(this.btnTorol_Click);
             // 
+            // btnfajlbol
+            // 
+            this.btnfajlbol.Location = new System.Drawing.Point(131, 319);
+            this.btnfajlbol.Name = "btnfajlbol";
+            this.btnfajlbol.Size = new System.Drawing.Size(90, 33);
+            this.btnfajlbol.TabIndex = 11;
+            this.btnfajlbol.Text = "Fájlból";
+            this.btnfajlbol.UseVisualStyleBackColor = true;
+            this.btnfajlbol.Click += new System.EventHandler(this.btnfajlbol_Click);
+            // 
+            // ofMegnyitas
+            // 
+            this.ofMegnyitas.FileName = "openFileDialog1";
+            this.ofMegnyitas.Filter = "Text files|*.txt";
+            this.ofMegnyitas.InitialDirectory = "C:\\Users\\c16lászlób\\source\\repos\\Haromszogek\\Haromszogek\\bin\\Debug";
+            // 
             // FrmFo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(656, 412);
+            this.Controls.Add(this.btnfajlbol);
             this.Controls.Add(this.btnTorol);
             this.Controls.Add(this.lbHaromszogLista);
             this.Controls.Add(this.panel1);
@@ -191,6 +210,8 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.ListBox lbHaromszogLista;
         private System.Windows.Forms.Button btnTorol;
+        private System.Windows.Forms.Button btnfajlbol;
+        private System.Windows.Forms.OpenFileDialog ofMegnyitas;
     }
 }
 
