@@ -8,9 +8,9 @@ namespace Haromszogek
 { 
     public class Haromszog
     {
-        private int aOldal;
-        private int bOldal;
-        private int cOldal;
+        private double aOldal;
+        private double bOldal;
+        private double cOldal;
 
         public double Terulet { get; private set; }
         public double Kerulet { get; private set; }
@@ -36,7 +36,7 @@ namespace Haromszogek
             adatok.Add($"a: {aOldal} - b: {bOldal} - c: {cOldal}");
             if (Szerkesztheto)
             {
-                adatok.Add($"Kerület: {Kerulet} - Terület {Terulet}");
+                adatok.Add($"Kerület: {Kerulet:N2} - Terület {Terulet:N2}");
             }
             else
             {
@@ -48,7 +48,7 @@ namespace Haromszogek
     
     private double TeruletSzamitas()
     {
-        double s = (aOldal + bOldal + cOldal) / 2;
+       double s = (aOldal + bOldal + cOldal) / 2;
        return Math.Sqrt(s* (s-aOldal)* (s-bOldal)*(s-cOldal));
     }
     private double KeruletSzamitas()
@@ -57,11 +57,11 @@ namespace Haromszogek
 
     }
 
-    public Haromszog(int aOldal, int bOldal, int cOldal)
+    public Haromszog(double aOldal, double bOldal, double cOldal)
     {
-        this.aOldal = aOldal;
-        this.bOldal = bOldal;
-        this.cOldal = cOldal;
+            this.aOldal = aOldal;
+            this.bOldal = bOldal;
+            this.cOldal = cOldal;
         Szerk();
     }
   }
