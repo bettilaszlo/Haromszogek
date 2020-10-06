@@ -104,7 +104,7 @@
             // 
             // btnKilepes
             // 
-            this.btnKilepes.Location = new System.Drawing.Point(131, 358);
+            this.btnKilepes.Location = new System.Drawing.Point(131, 279);
             this.btnKilepes.Name = "btnKilepes";
             this.btnKilepes.Size = new System.Drawing.Size(90, 42);
             this.btnKilepes.TabIndex = 7;
@@ -114,7 +114,7 @@
             // 
             // btnSzamol
             // 
-            this.btnSzamol.Location = new System.Drawing.Point(251, 74);
+            this.btnSzamol.Location = new System.Drawing.Point(203, 81);
             this.btnSzamol.Name = "btnSzamol";
             this.btnSzamol.Size = new System.Drawing.Size(100, 42);
             this.btnSzamol.TabIndex = 8;
@@ -135,7 +135,7 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(385, 255);
+            this.panel1.Size = new System.Drawing.Size(351, 210);
             this.panel1.TabIndex = 9;
             // 
             // lbHaromszogLista
@@ -143,14 +143,14 @@
             this.lbHaromszogLista.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lbHaromszogLista.FormattingEnabled = true;
             this.lbHaromszogLista.ItemHeight = 16;
-            this.lbHaromszogLista.Location = new System.Drawing.Point(412, 57);
+            this.lbHaromszogLista.Location = new System.Drawing.Point(371, 51);
             this.lbHaromszogLista.Name = "lbHaromszogLista";
-            this.lbHaromszogLista.Size = new System.Drawing.Size(215, 340);
+            this.lbHaromszogLista.Size = new System.Drawing.Size(232, 276);
             this.lbHaromszogLista.TabIndex = 10;
             // 
             // btnTorol
             // 
-            this.btnTorol.Location = new System.Drawing.Point(476, 12);
+            this.btnTorol.Location = new System.Drawing.Point(441, 12);
             this.btnTorol.Name = "btnTorol";
             this.btnTorol.Size = new System.Drawing.Size(75, 33);
             this.btnTorol.TabIndex = 9;
@@ -160,9 +160,9 @@
             // 
             // btnfajlbol
             // 
-            this.btnfajlbol.Location = new System.Drawing.Point(131, 319);
+            this.btnfajlbol.Location = new System.Drawing.Point(131, 233);
             this.btnfajlbol.Name = "btnfajlbol";
-            this.btnfajlbol.Size = new System.Drawing.Size(90, 33);
+            this.btnfajlbol.Size = new System.Drawing.Size(90, 40);
             this.btnfajlbol.TabIndex = 11;
             this.btnfajlbol.Text = "Fájlból";
             this.btnfajlbol.UseVisualStyleBackColor = true;
@@ -170,7 +170,6 @@
             // 
             // ofMegnyitas
             // 
-            this.ofMegnyitas.FileName = "openFileDialog1";
             this.ofMegnyitas.Filter = "Text files|*.txt";
             this.ofMegnyitas.InitialDirectory = "C:\\Users\\c16lászlób\\source\\repos\\Haromszogek\\Haromszogek\\bin\\Debug";
             // 
@@ -178,7 +177,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(656, 412);
+            this.ClientSize = new System.Drawing.Size(626, 350);
             this.Controls.Add(this.btnfajlbol);
             this.Controls.Add(this.btnTorol);
             this.Controls.Add(this.lbHaromszogLista);
